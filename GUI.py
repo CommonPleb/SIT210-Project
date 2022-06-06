@@ -152,5 +152,5 @@ window.mainloop()
 ClientSocket.close()
 
 # References
-# https://stackoverflow.com/questions/14824163/how-to-get-the-input-from-the-tkinter-text-widget
-# https://pythonguides.com/python-tkinter-radiobutton/
+# xxmbabanexx, 2013. How to get the input from the Tkinter Text Widget?. [online] Stack Overflow. Available at: <https://stackoverflow.com/questions/14824163/how-to-get-the-input-from-the-tkinter-text-widget> [Accessed 30 May 2022].
+# Kumar, B., 2020. Python Tkinter Radiobutton - How To Use. [online] Python Guides. Available at: <https://pythonguides.com/python-tkinter-radiobutton/> [Accessed 30 May 2022].
