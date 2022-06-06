@@ -56,7 +56,7 @@ def feed(feedAfterNightMode, lastFed, availFood):
         sleep(1)
         errorCount += 1
         availFood = WeightOfFood()
-        if errorCount > 1:
+        if errorCount > 10:
             availFood = error(availFood)
     close()
     return feedAfterNightMode, lastFed, availFood
@@ -192,15 +192,12 @@ while True:
         feedAfterNightMode, lastFed, availFood = feed(feedAfterNightMode, lastFed, availFood)
         feedAfterNightMode = False
 
-    sleep(10)
+    sleep(30)
 
+# thisPointer. n.d. Add minutes to current time in Python?. [online] Available at: <https://thispointer.com/add-minutes-to-current-time-in-python/> [Accessed 1 June 2022].
 
-# Vibration motor
+# PyPI. 2021. PyNAU7802. [online] Available at: <https://pypi.org/project/PyNAU7802/> [Accessed 1 June 2022].
 
-# Delta time https://thispointer.com/add-minutes-to-current-time-in-python/
+# MathWorks. n.d. enableI2C. [online] Available at: <https://www.mathworks.com/help/supportpkg/raspberrypiio/ref/enablei2c.html> [Accessed 1 June 2022].
 
-# Weight sensor library https://pypi.org/project/PyNAU7802/
-
-# Enabling I2C interface https://www.mathworks.com/help/supportpkg/raspberrypiio/ref/enablei2c.html
-
-# Servo code https://docs.circuitpython.org/projects/motor/en/latest/examples.html
+# Circuit Python. n.d. Simple tests — Adafruit motor Library 1.0 documentation. [online] Available at: <https://docs.circuitpython.org/projects/motor/en/latest/examples.html> [Accessed 1 June 2022].
