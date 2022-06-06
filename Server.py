@@ -31,10 +31,3 @@ while True:
             ServerSocket.sendto(response.encode(), ClientAddress)
     except:
         print("Invalid request")
-
-    
-    
-
-# Bibliography
-#
-# 
